@@ -3,7 +3,25 @@ body{
 	font-family: arial;
 }
 
-h1, h2, li{
+#dungeon1{
+	background-image: url("stonewall.png");
+	padding: 15px;
+}
+
+#home1{
+	background-image: url("logo.png");
+	padding: 15px;
+}
+
+h1{
+	color: red;
+}
+
+li{
+	color: #999;
+}
+
+h2,{
 	color: #555;
 }
 
