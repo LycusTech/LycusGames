@@ -1,6 +1,11 @@
 body{
 	background: #999;
 	font-family: arial;
+	margin: 0;
+}
+
+header{
+	
 }
 
 #dungeon1{
@@ -9,19 +14,30 @@ body{
 }
 
 #home1{
+	
 	background-image: url("logo.png");
 	padding: 5px;
 }
 
-h1{
+nav ul{
+	margin: 0;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+}
+
+header h1{
 	color: red;
+	
 }
 
 li{
 	color: #777;
 }
 
-h2,{
+h2{
 	color: #555;
 }
 
@@ -33,4 +49,14 @@ p{
 	background: #666;
 	color: white;
 	padding: 10px;
+}
+
+.row:after{
+	clear: both;
+	 content: " "; 
+	 display: table;
+}
+
+.col{
+	float: left;
 }
