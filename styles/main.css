@@ -14,9 +14,12 @@ header{
 }
 
 #home1{
-	
+
 	background-image: url("logo.png");
 	padding: 5px;
+}
+.game{
+	border: solid;
 }
 
 nav ul{
@@ -24,6 +27,7 @@ nav ul{
 }
 
 nav ul li{
+	color: #000;
 	display: inline-block;
 	list-style-type: none;
 }
@@ -33,15 +37,12 @@ header h1{
 	
 }
 
-li{
-	color: #777;
-}
 
 h2{
 	color: #555;
 }
 
-a{
+nav ul li a.nav-link{
 	color: red;
 }
 
