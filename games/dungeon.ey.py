@@ -1,3 +1,4 @@
+import Dungeon.html
 from random import randint
 import random
 import winsound
@@ -747,7 +748,7 @@ def bosstats():
     print("The boss has ", bosshealth, " points of health")
 
 
-def fighting():  # need to make an inventory system
+def fighting():
     global enemykills
     global classes
     global fight
@@ -2337,3 +2338,4 @@ class StartGame:
     print("Great good luck, oh wait you gotta pick your class first")
     player()
     crossroads()
+

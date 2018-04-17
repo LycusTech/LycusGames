@@ -18,9 +18,6 @@ header{
 	background-image: url("logo.png");
 	padding: 5px;
 }
-.game{
-	border: solid;
-}
 
 nav ul{
 	margin: 0;
@@ -42,7 +39,7 @@ h2{
 	color: #555;
 }
 
-nav ul li a.nav-link{
+nav ul li a .nav-link{
 	color: red;
 }
 
@@ -52,12 +49,22 @@ p{
 	padding: 10px;
 }
 
-.row:after{
-	clear: both;
-	 content: " "; 
-	 display: table;
+.dungeon{
+	background: #666
+
 }
 
-.col{
-	float: left;
+.dungeon .center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #666;
+    padding: 10px;
 }
+
+output {
+	background: white;
+	color: #000;
+	padding: 5px;
+}
+
+
